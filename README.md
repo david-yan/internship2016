@@ -99,3 +99,13 @@ Use README.md files in this directory to provide insights into your thought proc
   * Code samples should be written not just for functionality but also readability
   * Pay attention to the algorithms implemented and the order (Big-O notation) that your implementation provides. These are not just functionality and readability but also performance.
   * Test your code for all required scenarios.
+
+## Compiling/Dependency resolution
+
+**go code** 
+
+  * We will be running "go get ./..." and "go build" 
+  
+**python code**
+
+  * If you want me to install specific dependencies, please provide a shell script called download.sh. We will be using python 2.7
