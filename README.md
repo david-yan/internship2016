@@ -99,4 +99,10 @@ Use README.md files in this directory to provide insights into your thought proc
   
 **python code**
 
-  * If you want me to install specific dependencies, please provide a shell script called download.sh. We will be using python 2.7
+  * We will be using python 2.7. If you want me to install specific dependencies, please provide a shell script called download.sh and requirements file called requirements.txt in the following format
+  
+  ```bash
+  #!/bin/bash
+  
+  pip install -r requirements.txt
+  ```
